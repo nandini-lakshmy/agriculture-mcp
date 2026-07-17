@@ -35,9 +35,11 @@ This software architecture is designed to eventually replace the simulated data 
 </p>
 
 ---
-
 ## 🔄 System Workflow
 
 <p align="center">
   <img src="workflow.png" width="300">
 </p>
+## 📋 Documentation
+
+- [Testing Checklist](docs/testing-checklist.md)
