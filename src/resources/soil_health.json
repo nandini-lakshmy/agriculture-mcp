@@ -1,0 +1,420 @@
+{
+  "soil_types": {
+        "black_soil": {
+      "soil_name": "Black Soil",
+      "description": "Black soil is rich in clay and minerals, has excellent moisture retention, and is one of the best soils for cotton cultivation.",
+      "ph_range": {
+        "min": 7.0,
+        "max": 8.5
+      },
+      "characteristics": [
+        "High clay content",
+        "Excellent moisture retention",
+        "Rich in lime, iron and magnesium",
+        "Develops cracks during dry weather"
+      ],
+      "common_regions": [
+        "Maharashtra",
+        "Madhya Pradesh",
+        "Gujarat",
+        "Telangana"
+      ],
+      "recommended_crops": [
+        "Cotton",
+        "Soybean",
+        "Groundnut",
+        "Sorghum"
+      ],
+      "avoid_crops": [
+        "Tea"
+      ],
+      "recommended_fertilizers": [
+        "DAP",
+        "Urea",
+        "Compost"
+      ],
+      "improvement_tips": [
+        "Improve drainage to avoid waterlogging.",
+        "Add organic manure every season.",
+        "Avoid excessive irrigation."
+      ],
+      "farmer_tip": "Black soil retains water well, so irrigate only when necessary."
+    },
+
+    "red_soil": {
+      "soil_name": "Red Soil",
+      "description": "Red soil is porous, well-drained and rich in iron oxide but generally low in nitrogen and organic matter.",
+      "ph_range": {
+        "min": 5.5,
+        "max": 7.0
+      },
+      "characteristics": [
+        "Well-drained",
+        "Low organic matter",
+        "Rich in iron oxide"
+      ],
+      "common_regions": [
+        "Tamil Nadu",
+        "Karnataka",
+        "Andhra Pradesh",
+        "Odisha"
+      ],
+      "recommended_crops": [
+        "Groundnut",
+        "Millets",
+        "Cotton",
+        "Pulses"
+      ],
+      "avoid_crops": [
+        "Rice (without irrigation)"
+      ],
+      "recommended_fertilizers": [
+        "Compost",
+        "DAP",
+        "Urea"
+      ],
+      "improvement_tips": [
+        "Increase organic matter regularly.",
+        "Apply balanced fertilizers.",
+        "Use mulching to reduce moisture loss."
+      ],
+      "farmer_tip": "Regular compost application greatly improves red soil fertility."
+    },
+        "alluvial_soil": {
+      "soil_name": "Alluvial Soil",
+      "description": "Alluvial soil is highly fertile and one of the most productive soils in India. It is formed by river deposits.",
+      "ph_range": {
+        "min": 6.5,
+        "max": 8.0
+      },
+      "characteristics": [
+        "Highly fertile",
+        "Good water retention",
+        "Rich in potash and lime",
+        "Easy to cultivate"
+      ],
+      "common_regions": [
+        "Punjab",
+        "Uttar Pradesh",
+        "Bihar",
+        "West Bengal",
+        "Assam"
+      ],
+      "recommended_crops": [
+        "Rice",
+        "Wheat",
+        "Sugarcane",
+        "Maize",
+        "Vegetables"
+      ],
+      "avoid_crops": [],
+      "recommended_fertilizers": [
+        "Urea",
+        "DAP",
+        "NPK Complex"
+      ],
+      "improvement_tips": [
+        "Maintain organic matter with compost.",
+        "Rotate crops to preserve fertility."
+      ],
+      "farmer_tip": "Alluvial soil is naturally fertile, but regular organic manure helps maintain long-term productivity."
+    },
+
+    "laterite_soil": {
+      "soil_name": "Laterite Soil",
+      "description": "Laterite soil develops in areas of high rainfall and temperature. It is generally acidic and low in fertility.",
+      "ph_range": {
+        "min": 4.5,
+        "max": 6.5
+      },
+      "characteristics": [
+        "Acidic",
+        "Low fertility",
+        "Rich in iron and aluminum",
+        "Well drained"
+      ],
+      "common_regions": [
+        "Kerala",
+        "Karnataka",
+        "Tamil Nadu",
+        "Goa"
+      ],
+      "recommended_crops": [
+        "Tea",
+        "Coffee",
+        "Rubber",
+        "Cashew"
+      ],
+      "avoid_crops": [
+        "Wheat"
+      ],
+      "recommended_fertilizers": [
+        "Organic Manure",
+        "Compost",
+        "NPK Complex"
+      ],
+      "improvement_tips": [
+        "Apply lime to reduce acidity when required.",
+        "Add compost regularly to improve fertility."
+      ],
+      "farmer_tip": "Laterite soil benefits greatly from organic matter and proper pH management."
+    },
+        "sandy_soil": {
+      "soil_name": "Sandy Soil",
+      "description": "Sandy soil has large particles, drains water quickly, and is low in nutrient retention.",
+      "ph_range": {
+        "min": 5.5,
+        "max": 7.5
+      },
+      "characteristics": [
+        "Excellent drainage",
+        "Low water retention",
+        "Easy root penetration"
+      ],
+      "common_regions": [
+        "Rajasthan",
+        "Gujarat"
+      ],
+      "recommended_crops": [
+        "Groundnut",
+        "Watermelon",
+        "Carrot",
+        "Pearl Millet"
+      ],
+      "avoid_crops": [
+        "Rice"
+      ],
+      "recommended_fertilizers": [
+        "Compost",
+        "Farmyard Manure"
+      ],
+      "improvement_tips": [
+        "Add organic matter regularly.",
+        "Use mulch to reduce moisture loss."
+      ],
+      "farmer_tip": "Water more frequently in smaller amounts because sandy soil dries quickly."
+    },
+
+    "clay_soil": {
+      "soil_name": "Clay Soil",
+      "description": "Clay soil retains water and nutrients well but drains slowly.",
+      "ph_range": {
+        "min": 6.0,
+        "max": 8.0
+      },
+      "characteristics": [
+        "High water retention",
+        "Rich in nutrients",
+        "Poor drainage"
+      ],
+      "common_regions": [
+        "Punjab",
+        "Haryana",
+        "Parts of Uttar Pradesh"
+      ],
+      "recommended_crops": [
+        "Rice",
+        "Wheat"
+      ],
+      "avoid_crops": [
+        "Groundnut"
+      ],
+      "recommended_fertilizers": [
+        "DAP",
+        "Compost"
+      ],
+      "improvement_tips": [
+        "Improve drainage.",
+        "Mix compost to improve soil structure."
+      ],
+      "farmer_tip": "Avoid over-irrigation because clay soil holds water for a long time."
+    },
+
+    "loamy_soil": {
+      "soil_name": "Loamy Soil",
+      "description": "Loamy soil is considered the ideal agricultural soil because it balances sand, silt and clay.",
+      "ph_range": {
+        "min": 6.0,
+        "max": 7.5
+      },
+      "characteristics": [
+        "Highly fertile",
+        "Good drainage",
+        "Excellent moisture retention"
+      ],
+      "common_regions": [
+        "Across India"
+      ],
+      "recommended_crops": [
+        "Most crops",
+        "Vegetables",
+        "Fruits"
+      ],
+      "avoid_crops": [],
+      "recommended_fertilizers": [
+        "Compost",
+        "NPK Complex"
+      ],
+      "improvement_tips": [
+        "Maintain organic matter.",
+        "Practice crop rotation."
+      ],
+      "farmer_tip": "Loamy soil is ideal for most crops when managed with balanced fertilization."
+    },
+
+    "saline_soil": {
+      "soil_name": "Saline Soil",
+      "description": "Saline soil contains excessive soluble salts that reduce crop growth.",
+      "ph_range": {
+        "min": 7.5,
+        "max": 9.0
+      },
+      "characteristics": [
+        "High salt content",
+        "Poor plant growth",
+        "Reduced water uptake"
+      ],
+      "common_regions": [
+        "Coastal Gujarat",
+        "Coastal Tamil Nadu",
+        "Parts of Rajasthan"
+      ],
+      "recommended_crops": [
+        "Barley",
+        "Cotton"
+      ],
+      "avoid_crops": [
+        "Beans",
+        "Onion"
+      ],
+      "recommended_fertilizers": [
+        "Gypsum",
+        "Organic Manure"
+      ],
+      "improvement_tips": [
+        "Improve drainage.",
+        "Leach salts with quality irrigation water.",
+        "Apply gypsum where appropriate."
+      ],
+      "farmer_tip": "Regular soil testing helps manage salt levels before crop damage becomes severe."
+    }
+      },
+
+  "nutrient_deficiencies": {
+
+    "nitrogen": {
+      "nutrient": "Nitrogen",
+      "symptoms": [
+        "Older leaves turn yellow",
+        "Slow plant growth",
+        "Small leaves"
+      ],
+      "possible_causes": [
+        "Nitrogen-deficient soil",
+        "Heavy rainfall causing nutrient loss"
+      ],
+      "recommended_fertilizers": [
+        "Urea",
+        "Compost"
+      ],
+      "farmer_tip": "Apply nitrogen in split doses instead of all at once."
+    },
+
+    "phosphorus": {
+      "nutrient": "Phosphorus",
+      "symptoms": [
+        "Purple or dark green leaves",
+        "Poor root development",
+        "Delayed flowering"
+      ],
+      "possible_causes": [
+        "Low phosphorus availability",
+        "Cold soil"
+      ],
+      "recommended_fertilizers": [
+        "DAP",
+        "SSP"
+      ],
+      "farmer_tip": "Apply phosphorus during land preparation for best results."
+    },
+
+    "potassium": {
+      "nutrient": "Potassium",
+      "symptoms": [
+        "Brown leaf edges",
+        "Weak stems",
+        "Poor fruit quality"
+      ],
+      "possible_causes": [
+        "Low potassium in soil"
+      ],
+      "recommended_fertilizers": [
+        "MOP"
+      ],
+      "farmer_tip": "Balanced potassium improves crop quality and disease resistance."
+    },
+
+    "zinc": {
+      "nutrient": "Zinc",
+      "symptoms": [
+        "Stunted growth",
+        "Yellow bands on leaves"
+      ],
+      "possible_causes": [
+        "Zinc-deficient soil"
+      ],
+      "recommended_fertilizers": [
+        "Zinc Sulphate"
+      ],
+      "farmer_tip": "Use zinc only if deficiency is confirmed by soil or plant symptoms."
+    },
+
+    "iron": {
+      "nutrient": "Iron",
+      "symptoms": [
+        "Yellow young leaves",
+        "Green veins with yellow tissue"
+      ],
+      "possible_causes": [
+        "High soil pH",
+        "Poor iron availability"
+      ],
+      "recommended_fertilizers": [
+        "Iron Chelate"
+      ],
+      "farmer_tip": "Iron deficiency is more common in alkaline soils."
+    },
+
+    "sulfur": {
+      "nutrient": "Sulfur",
+      "symptoms": [
+        "Pale green leaves",
+        "Slow plant growth"
+      ],
+      "possible_causes": [
+        "Low sulfur content"
+      ],
+      "recommended_fertilizers": [
+        "Gypsum"
+      ],
+      "farmer_tip": "Sulfur supports protein formation and healthy crop growth."
+    },
+
+    "boron": {
+      "nutrient": "Boron",
+      "symptoms": [
+        "Poor flowering",
+        "Poor fruit formation",
+        "Cracked stems"
+      ],
+      "possible_causes": [
+        "Boron-deficient soil"
+      ],
+      "recommended_fertilizers": [
+        "Borax"
+      ],
+      "farmer_tip": "Apply boron carefully because too much can damage crops."
+    }
+
+  }
+}
