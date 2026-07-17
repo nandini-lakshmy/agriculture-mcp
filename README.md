@@ -43,3 +43,15 @@ This software architecture is designed to eventually replace the simulated data 
 ## 📋 Documentation
 
 - [Testing Checklist](docs/testing-checklist.md)
+
+## 🛠️ Technology Stack
+
+| Category | Technology |
+|----------|------------|
+| Frontend | React, TypeScript, Tailwind CSS |
+| Backend | Node.js |
+| MCP Framework | Model Context Protocol (MCP) SDK |
+| AI | OpenAI / Gemini (whichever you are using) |
+| Weather Data | OpenWeather API |
+| Data Source | Custom Crop & Soil Knowledge Base |
+| Version Control | Git & GitHub |
