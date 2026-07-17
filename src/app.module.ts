@@ -1,6 +1,10 @@
 import { McpApp, Module, ConfigModule } from '@nitrostack/core';
 import { AgricultureModule } from './modules/agriculture/agriculture.module.js';
 import { SystemHealthCheck } from './health/system.health.js';
+import { WeatherModule } from "./modules/weather/weather.module.js";
+import { ResourcesModule } from "./modules/resources/resources.module.js";
+import { RecommendationModule } from "./modules/recommendation/recommendation.module.js";
+import { SensorModule } from "./modules/sensors/sensor.module.js";
 
 /**
  * Root Application Module
@@ -23,7 +27,11 @@ import { SystemHealthCheck } from './health/system.health.js';
   description: 'Root application module',
   imports: [
     ConfigModule.forRoot(),
-    AgricultureModule
+    WeatherModule,
+    AgricultureModule,
+    ResourcesModule,
+    RecommendationModule,
+    SensorModule
   ],
   providers: [
     // Health Checks
