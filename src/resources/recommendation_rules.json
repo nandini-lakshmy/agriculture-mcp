@@ -1,0 +1,237 @@
+{
+  "crop_rules": {
+    "rice": {
+  "preferred_soil": [
+    "Clay Soil",
+    "Alluvial Soil"
+  ],
+  "recommended_irrigation": "Flood Irrigation",
+  "primary_fertilizers": [
+    "Urea",
+    "DAP"
+  ]
+},
+
+"wheat": {
+  "preferred_soil": [
+    "Alluvial Soil",
+    "Loamy Soil"
+  ],
+  "recommended_irrigation": "Sprinkler Irrigation",
+  "primary_fertilizers": [
+    "Urea",
+    "NPK Complex"
+  ]
+},
+
+"cotton": {
+  "preferred_soil": [
+    "Black Soil"
+  ],
+  "recommended_irrigation": "Drip Irrigation",
+  "primary_fertilizers": [
+    "DAP",
+    "Urea"
+  ]
+},
+
+"tea": {
+  "preferred_soil": [
+    "Laterite Soil"
+  ],
+  "recommended_irrigation": "Sprinkler Irrigation",
+  "primary_fertilizers": [
+    "Organic Manure",
+    "NPK Complex"
+  ]
+},
+
+"maize": {
+  "preferred_soil": [
+    "Loamy Soil",
+    "Alluvial Soil"
+  ],
+  "recommended_irrigation": "Drip Irrigation",
+  "primary_fertilizers": [
+    "Urea",
+    "DAP"
+  ]
+}
+
+  },
+
+  "soil_rules": {
+    "acidic_soil": {
+  "ph_range": "< 6.5",
+  "recommendation": "Apply agricultural lime",
+  "recommended_materials": [
+    "Lime",
+    "Dolomite"
+  ]
+},
+
+"alkaline_soil": {
+  "ph_range": "> 7.5",
+  "recommendation": "Apply gypsum and organic matter",
+  "recommended_materials": [
+    "Gypsum",
+    "Compost"
+  ]
+},
+
+"sandy_soil": {
+  "recommendation": "Increase organic matter and irrigate frequently",
+  "recommended_materials": [
+    "Compost",
+    "Farmyard Manure"
+  ]
+},
+
+"clay_soil": {
+  "recommendation": "Improve drainage and add organic matter",
+  "recommended_materials": [
+    "Compost",
+    "Gypsum"
+  ]
+},
+
+"saline_soil": {
+  "recommendation": "Leach salts and apply gypsum",
+  "recommended_materials": [
+    "Gypsum"
+  ]
+}
+
+  },
+
+  "nutrient_rules": {
+    "nutrient_rules": {
+  "nitrogen_deficiency": {
+    "symptoms": [
+      "Older leaves turn yellow",
+      "Slow plant growth"
+    ],
+    "recommendation": "Apply nitrogen-rich fertilizer",
+    "recommended_fertilizers": [
+      "Urea",
+      "Compost"
+    ]
+  },
+
+  "phosphorus_deficiency": {
+    "symptoms": [
+      "Purple leaves",
+      "Poor root growth"
+    ],
+    "recommendation": "Apply phosphorus fertilizer",
+    "recommended_fertilizers": [
+      "DAP",
+      "SSP"
+    ]
+  },
+
+  "potassium_deficiency": {
+    "symptoms": [
+      "Brown leaf edges",
+      "Weak stems"
+    ],
+    "recommendation": "Apply potassium fertilizer",
+    "recommended_fertilizers": [
+      "MOP"
+    ]
+  },
+
+  "zinc_deficiency": {
+    "symptoms": [
+      "Yellow bands on leaves",
+      "Stunted growth"
+    ],
+    "recommendation": "Apply zinc sulphate",
+    "recommended_fertilizers": [
+      "Zinc Sulphate"
+    ]
+  },
+
+  "iron_deficiency": {
+    "symptoms": [
+      "Yellow young leaves",
+      "Green veins"
+    ],
+    "recommendation": "Apply iron supplements",
+    "recommended_fertilizers": [
+      "Iron Chelate"
+    ]
+  }
+}
+
+  },
+
+  "irrigation_rules": {
+
+    "rice": {
+  "recommended_method": "Flood Irrigation",
+  "watering_frequency": "Maintain standing water during major growth stages."
+},
+
+"wheat": {
+  "recommended_method": "Sprinkler Irrigation",
+  "watering_frequency": "Irrigate at critical growth stages and avoid overwatering."
+},
+
+"cotton": {
+  "recommended_method": "Drip Irrigation",
+  "watering_frequency": "Water deeply but less frequently."
+},
+
+"vegetables": {
+  "recommended_method": "Drip Irrigation",
+  "watering_frequency": "Keep soil consistently moist without waterlogging."
+},
+
+"sugarcane": {
+  "recommended_method": "Furrow Irrigation",
+  "watering_frequency": "Provide regular irrigation, especially during dry periods."
+}
+  },
+
+  "pest_rules": {
+    "aphids": {
+  "symptoms": [
+    "Curled leaves",
+    "Sticky honeydew on leaves"
+  ],
+  "recommendation": "Use neem oil or insecticidal soap. Encourage natural predators like ladybugs."
+},
+
+"stem_borer": {
+  "symptoms": [
+    "Dead heart in young plants",
+    "Holes in stems"
+  ],
+  "recommendation": "Remove affected plants and use recommended biological or chemical controls."
+},
+
+"whitefly": {
+  "symptoms": [
+    "Yellowing leaves",
+    "Sticky residue"
+  ],
+  "recommendation": "Use yellow sticky traps and neem-based sprays."
+},
+
+"leaf_spot": {
+  "symptoms": [
+    "Brown or black spots on leaves"
+  ],
+  "recommendation": "Remove infected leaves and apply a suitable fungicide if needed."
+},
+
+"mealybug": {
+  "symptoms": [
+    "White cotton-like insects on stems and leaves"
+  ],
+  "recommendation": "Prune affected areas and use neem oil or appropriate insecticides."
+}
+
+  }
+}
