@@ -26,3 +26,18 @@ Our system operates on a seamless flow from the UI down to the MCP primitives:
 
 ## Future Hardware Integration
 This software architecture is designed to eventually replace the simulated data with live feeds from physical ESP32 and Arduino microcontrollers connected to real-world soil sensors in the field.
+#system architecture
+
+## 🏗️ System Architecture
+
+<p align="center">
+  <img src="architecture.png" width="400">
+</p>
+
+---
+
+## 🔄 System Workflow
+
+<p align="center">
+  <img src="workflow.png" width="300">
+</p>
