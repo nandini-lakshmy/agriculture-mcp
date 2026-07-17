@@ -49,9 +49,8 @@ This software architecture is designed to eventually replace the simulated data 
 | Category | Technology |
 |----------|------------|
 | Frontend | React, TypeScript, Tailwind CSS |
-| Backend | Node.js |
+| Backend | Node.js&Nitrostack |
 | MCP Framework | Model Context Protocol (MCP) SDK |
-| AI | OpenAI / Gemini (whichever you are using) |
 | Weather Data | OpenWeather API |
 | Data Source | Custom Crop & Soil Knowledge Base |
 | Version Control | Git & GitHub |
