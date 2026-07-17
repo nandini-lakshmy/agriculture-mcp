@@ -1,0 +1,1296 @@
+{
+  "rice": {
+    "crop_name": "Rice",
+    "scientific_name": "Oryza sativa",
+    "description": "Rice is a staple cereal crop and the primary food source for more than half of the world's population.",
+    "category": "Cereal",
+    "uses": [
+      "Food"
+    ],
+    "season": [
+      "Kharif"
+    ],
+    "soil_type": [
+      "Clay",
+      "Clay Loam",
+      "Loamy"
+    ],
+    "ideal_ph": {
+      "min": 5.5,
+      "max": 7.0
+    },
+    "temperature_celsius": {
+      "min": 20,
+      "max": 35
+    },
+    "rainfall_mm": {
+      "min": 1000,
+      "max": 2000
+    },
+    "water_requirement": "High",
+    "recommended_fertilizers": [
+      "Urea",
+      "DAP",
+      "MOP"
+    ],
+    "npk_requirement": {
+      "nitrogen": "High",
+      "phosphorus": "Medium",
+      "potassium": "Medium"
+    },
+    "suitable_states": [
+      "Punjab",
+      "West Bengal",
+      "Tamil Nadu",
+      "Kerala",
+      "Andhra Pradesh",
+      "Telangana"
+    ],
+    "common_diseases": [
+      "Blast",
+      "Brown Spot",
+      "Bacterial Leaf Blight"
+    ],
+    "common_pests": [
+      "Stem Borer",
+      "Brown Planthopper",
+      "Leaf Folder"
+    ],
+    "common_problems": [
+      {
+        "problem": "Leaves turning yellow",
+        "possible_causes": [
+          "Nitrogen deficiency",
+          "Poor drainage",
+          "Overwatering"
+        ],
+        "farmer_message": "Yellow leaves usually indicate nutrient deficiency or improper water management."
+      },
+      {
+        "problem": "Poor plant growth",
+        "possible_causes": [
+          "Low soil fertility",
+          "Improper pH",
+          "Lack of sunlight"
+        ],
+        "farmer_message": "Poor growth often results from unhealthy soil or insufficient sunlight."
+      }
+    ],
+    "harvest_time_days": 120,
+    "expected_yield": "4-6 tonnes/hectare",
+    "best_irrigation": "Flood Irrigation"
+  },
+  "wheat": {
+    "crop_name": "Wheat",
+    "scientific_name": "Triticum aestivum",
+    "description": "Wheat is one of the world's most important cereal crops and is widely grown during the Rabi season.",
+    "category": "Cereal",
+    "uses": [
+      "Food",
+      "Flour"
+    ],
+    "season": [
+      "Rabi"
+    ],
+    "soil_type": [
+      "Loamy",
+      "Clay Loam"
+    ],
+    "ideal_ph": {
+      "min": 6.0,
+      "max": 7.5
+    },
+    "temperature_celsius": {
+      "min": 10,
+      "max": 25
+    },
+    "rainfall_mm": {
+      "min": 500,
+      "max": 1000
+    },
+    "water_requirement": "Medium",
+    "recommended_fertilizers": [
+      "Urea",
+      "DAP"
+    ],
+    "npk_requirement": {
+      "nitrogen": "High",
+      "phosphorus": "Medium",
+      "potassium": "Medium"
+    },
+    "suitable_states": [
+      "Punjab",
+      "Haryana",
+      "Uttar Pradesh",
+      "Madhya Pradesh"
+    ],
+    "common_diseases": [
+      "Rust",
+      "Loose Smut"
+    ],
+    "common_pests": [
+      "Aphids",
+      "Termites"
+    ],
+    "common_problems": [
+      {
+        "problem": "Rust infection",
+        "possible_causes": [
+          "Fungal disease",
+          "Humid weather"
+        ],
+        "farmer_message": "Rust spreads quickly in humid conditions."
+      }
+    ],
+    "harvest_time_days": 120,
+    "expected_yield": "3-5 tonnes/hectare",
+    "best_irrigation": "Sprinkler Irrigation"
+  },
+  "maize": {
+    "crop_name": "Maize",
+    "scientific_name": "Zea mays",
+    "description": "Maize is a versatile cereal crop used for food, animal feed and industrial products.",
+    "category": "Cereal",
+    "uses": [
+      "Food",
+      "Animal Feed",
+      "Starch Industry"
+    ],
+    "season": [
+      "Kharif"
+    ],
+    "soil_type": [
+      "Loamy"
+    ],
+    "ideal_ph": {
+      "min": 5.5,
+      "max": 7.5
+    },
+    "temperature_celsius": {
+      "min": 18,
+      "max": 32
+    },
+    "rainfall_mm": {
+      "min": 500,
+      "max": 800
+    },
+    "water_requirement": "Medium",
+    "recommended_fertilizers": [
+      "Urea",
+      "DAP"
+    ],
+    "npk_requirement": {
+      "nitrogen": "High",
+      "phosphorus": "Medium",
+      "potassium": "Medium"
+    },
+    "suitable_states": [
+      "Karnataka",
+      "Bihar",
+      "Madhya Pradesh"
+    ],
+    "common_diseases": [
+      "Leaf Blight"
+    ],
+    "common_pests": [
+      "Fall Armyworm"
+    ],
+    "common_problems": [
+      {
+        "problem": "Leaf damage",
+        "possible_causes": [
+          "Fall Armyworm attack"
+        ],
+        "farmer_message": "Inspect plants regularly for caterpillar damage."
+      }
+    ],
+    "harvest_time_days": 110,
+    "expected_yield": "4-7 tonnes/hectare",
+    "best_irrigation": "Drip Irrigation"
+  },
+  "banana": {
+    "crop_name": "Banana",
+    "scientific_name": "Musa spp.",
+    "description": "Banana is one of India's major fruit crops and is grown throughout the year in tropical regions.",
+    "category": "Fruit",
+    "uses": [
+      "Food",
+      "Processing"
+    ],
+    "season": [
+      "Year-round"
+    ],
+    "soil_type": [
+      "Loamy"
+    ],
+    "ideal_ph": {
+      "min": 6.0,
+      "max": 7.5
+    },
+    "temperature_celsius": {
+      "min": 20,
+      "max": 35
+    },
+    "rainfall_mm": {
+      "min": 1000,
+      "max": 2500
+    },
+    "water_requirement": "High",
+    "recommended_fertilizers": [
+      "Urea",
+      "MOP"
+    ],
+    "npk_requirement": {
+      "nitrogen": "High",
+      "phosphorus": "Medium",
+      "potassium": "High"
+    },
+    "suitable_states": [
+      "Kerala",
+      "Tamil Nadu",
+      "Maharashtra"
+    ],
+    "common_diseases": [
+      "Panama Wilt"
+    ],
+    "common_pests": [
+      "Banana Weevil"
+    ],
+    "common_problems": [
+      {
+        "problem": "Wilting plants",
+        "possible_causes": [
+          "Panama disease"
+        ],
+        "farmer_message": "Remove infected plants and improve drainage."
+      }
+    ],
+    "harvest_time_days": 365,
+    "expected_yield": "40-60 tonnes/hectare",
+    "best_irrigation": "Drip Irrigation"
+  },
+  "coconut": {
+    "crop_name": "Coconut",
+    "scientific_name": "Cocos nucifera",
+    "description": "Coconut is an important plantation crop widely grown in India's coastal regions.",
+    "category": "Plantation",
+    "uses": [
+      "Food",
+      "Oil",
+      "Coir"
+    ],
+    "season": [
+      "Year-round"
+    ],
+    "soil_type": [
+      "Sandy Loam",
+      "Loamy"
+    ],
+    "ideal_ph": {
+      "min": 5.2,
+      "max": 8.0
+    },
+    "temperature_celsius": {
+      "min": 20,
+      "max": 32
+    },
+    "rainfall_mm": {
+      "min": 1000,
+      "max": 2500
+    },
+    "water_requirement": "Medium",
+    "recommended_fertilizers": [
+      "Organic Manure",
+      "MOP"
+    ],
+    "npk_requirement": {
+      "nitrogen": "Medium",
+      "phosphorus": "Medium",
+      "potassium": "High"
+    },
+    "suitable_states": [
+      "Kerala",
+      "Karnataka",
+      "Tamil Nadu",
+      "Goa"
+    ],
+    "common_diseases": [
+      "Bud Rot"
+    ],
+    "common_pests": [
+      "Rhinoceros Beetle",
+      "Red Palm Weevil"
+    ],
+    "common_problems": [
+      {
+        "problem": "Damaged crown",
+        "possible_causes": [
+          "Beetle attack"
+        ],
+        "farmer_message": "Inspect the crown regularly and remove affected tissues."
+      }
+    ],
+    "harvest_time_days": 1825,
+    "expected_yield": "80-120 nuts/tree/year",
+    "best_irrigation": "Basin Irrigation"
+  },
+  "cotton": {
+    "crop_name": "Cotton",
+    "scientific_name": "Gossypium hirsutum",
+    "description": "Cotton is India's most important fiber crop and is widely used in the textile industry.",
+    "category": "Fiber Crop",
+    "uses": [
+      "Textile",
+      "Cottonseed Oil",
+      "Animal Feed"
+    ],
+    "season": [
+      "Kharif"
+    ],
+    "soil_type": [
+      "Black Soil",
+      "Loamy"
+    ],
+    "ideal_ph": {
+      "min": 5.8,
+      "max": 8.0
+    },
+    "temperature_celsius": {
+      "min": 21,
+      "max": 30
+    },
+    "rainfall_mm": {
+      "min": 500,
+      "max": 1000
+    },
+    "water_requirement": "Medium",
+    "recommended_fertilizers": [
+      "Urea",
+      "DAP",
+      "MOP"
+    ],
+    "npk_requirement": {
+      "nitrogen": "High",
+      "phosphorus": "Medium",
+      "potassium": "High"
+    },
+    "suitable_states": [
+      "Gujarat",
+      "Maharashtra",
+      "Telangana",
+      "Punjab"
+    ],
+    "common_diseases": [
+      "Wilt",
+      "Leaf Curl Virus"
+    ],
+    "common_pests": [
+      "Bollworm",
+      "Whitefly"
+    ],
+    "common_problems": [
+      {
+        "problem": "Leaf Curl",
+        "possible_causes": [
+          "Whitefly infestation",
+          "Viral infection"
+        ],
+        "farmer_message": "Control whiteflies early to reduce virus spread."
+      }
+    ],
+    "harvest_time_days": 180,
+    "expected_yield": "2-3 tonnes/hectare",
+    "best_irrigation": "Drip Irrigation"
+  },
+  "sugarcane": {
+    "crop_name": "Sugarcane",
+    "scientific_name": "Saccharum officinarum",
+    "description": "Sugarcane is a major commercial crop used for producing sugar, jaggery and ethanol.",
+    "category": "Commercial Crop",
+    "uses": [
+      "Sugar",
+      "Jaggery",
+      "Ethanol"
+    ],
+    "season": [
+      "Year-round"
+    ],
+    "soil_type": [
+      "Loamy",
+      "Clay Loam"
+    ],
+    "ideal_ph": {
+      "min": 6.0,
+      "max": 7.5
+    },
+    "temperature_celsius": {
+      "min": 20,
+      "max": 35
+    },
+    "rainfall_mm": {
+      "min": 1000,
+      "max": 1500
+    },
+    "water_requirement": "High",
+    "recommended_fertilizers": [
+      "Urea",
+      "DAP",
+      "Potash"
+    ],
+    "npk_requirement": {
+      "nitrogen": "High",
+      "phosphorus": "Medium",
+      "potassium": "High"
+    },
+    "suitable_states": [
+      "Uttar Pradesh",
+      "Maharashtra",
+      "Karnataka",
+      "Tamil Nadu"
+    ],
+    "common_diseases": [
+      "Red Rot",
+      "Smut"
+    ],
+    "common_pests": [
+      "Early Shoot Borer",
+      "Pyrilla"
+    ],
+    "common_problems": [
+      {
+        "problem": "Red Rot",
+        "possible_causes": [
+          "Fungal infection"
+        ],
+        "farmer_message": "Remove infected canes immediately."
+      }
+    ],
+    "harvest_time_days": 365,
+    "expected_yield": "70-100 tonnes/hectare",
+    "best_irrigation": "Drip Irrigation"
+  },
+  "groundnut": {
+    "crop_name": "Groundnut",
+    "scientific_name": "Arachis hypogaea",
+    "description": "Groundnut is an important oilseed crop grown across India.",
+    "category": "Oilseed",
+    "uses": [
+      "Edible Oil",
+      "Food"
+    ],
+    "season": [
+      "Kharif",
+      "Rabi"
+    ],
+    "soil_type": [
+      "Sandy Loam"
+    ],
+    "ideal_ph": {
+      "min": 6.0,
+      "max": 7.5
+    },
+    "temperature_celsius": {
+      "min": 25,
+      "max": 30
+    },
+    "rainfall_mm": {
+      "min": 500,
+      "max": 1000
+    },
+    "water_requirement": "Medium",
+    "recommended_fertilizers": [
+      "Gypsum",
+      "DAP"
+    ],
+    "npk_requirement": {
+      "nitrogen": "Low",
+      "phosphorus": "High",
+      "potassium": "Medium"
+    },
+    "suitable_states": [
+      "Gujarat",
+      "Andhra Pradesh",
+      "Tamil Nadu"
+    ],
+    "common_diseases": [
+      "Leaf Spot",
+      "Rust"
+    ],
+    "common_pests": [
+      "Aphids",
+      "Leaf Miner"
+    ],
+    "common_problems": [
+      {
+        "problem": "Leaf Spot",
+        "possible_causes": [
+          "Fungal infection"
+        ],
+        "farmer_message": "Remove infected leaves and improve air circulation."
+      }
+    ],
+    "harvest_time_days": 120,
+    "expected_yield": "2-3 tonnes/hectare",
+    "best_irrigation": "Sprinkler Irrigation"
+  },
+  "soybean": {
+    "crop_name": "Soybean",
+    "scientific_name": "Glycine max",
+    "description": "Soybean is a protein-rich legume grown for oil and animal feed.",
+    "category": "Oilseed",
+    "uses": [
+      "Oil",
+      "Animal Feed",
+      "Food"
+    ],
+    "season": [
+      "Kharif"
+    ],
+    "soil_type": [
+      "Loamy"
+    ],
+    "ideal_ph": {
+      "min": 6.0,
+      "max": 7.5
+    },
+    "temperature_celsius": {
+      "min": 20,
+      "max": 30
+    },
+    "rainfall_mm": {
+      "min": 600,
+      "max": 1200
+    },
+    "water_requirement": "Medium",
+    "recommended_fertilizers": [
+      "DAP",
+      "Potash"
+    ],
+    "npk_requirement": {
+      "nitrogen": "Low",
+      "phosphorus": "High",
+      "potassium": "Medium"
+    },
+    "suitable_states": [
+      "Madhya Pradesh",
+      "Maharashtra",
+      "Rajasthan"
+    ],
+    "common_diseases": [
+      "Rust",
+      "Anthracnose"
+    ],
+    "common_pests": [
+      "Stem Fly",
+      "Whitefly"
+    ],
+    "common_problems": [
+      {
+        "problem": "Yellow leaves",
+        "possible_causes": [
+          "Nutrient deficiency"
+        ],
+        "farmer_message": "Check soil nutrients before applying fertilizer."
+      }
+    ],
+    "harvest_time_days": 110,
+    "expected_yield": "2-4 tonnes/hectare",
+    "best_irrigation": "Sprinkler Irrigation"
+  },
+  "tomato": {
+    "crop_name": "Tomato",
+    "scientific_name": "Solanum lycopersicum",
+    "description": "Tomato is one of the most widely cultivated vegetable crops in India.",
+    "category": "Vegetable",
+    "uses": [
+      "Fresh Consumption",
+      "Sauce",
+      "Processing"
+    ],
+    "season": [
+      "Year-round"
+    ],
+    "soil_type": [
+      "Loamy",
+      "Sandy Loam"
+    ],
+    "ideal_ph": {
+      "min": 6.0,
+      "max": 7.0
+    },
+    "temperature_celsius": {
+      "min": 18,
+      "max": 30
+    },
+    "rainfall_mm": {
+      "min": 400,
+      "max": 800
+    },
+    "water_requirement": "Medium",
+    "recommended_fertilizers": [
+      "Compost",
+      "NPK"
+    ],
+    "npk_requirement": {
+      "nitrogen": "Medium",
+      "phosphorus": "High",
+      "potassium": "High"
+    },
+    "suitable_states": [
+      "Karnataka",
+      "Andhra Pradesh",
+      "Maharashtra",
+      "Tamil Nadu"
+    ],
+    "common_diseases": [
+      "Early Blight",
+      "Late Blight"
+    ],
+    "common_pests": [
+      "Fruit Borer",
+      "Whitefly"
+    ],
+    "common_problems": [
+      {
+        "problem": "Fruit cracking",
+        "possible_causes": [
+          "Irregular watering"
+        ],
+        "farmer_message": "Maintain consistent soil moisture."
+      }
+    ],
+    "harvest_time_days": 90,
+    "expected_yield": "25-40 tonnes/hectare",
+    "best_irrigation": "Drip Irrigation"
+  },
+  "potato": {
+    "crop_name": "Potato",
+    "scientific_name": "Solanum tuberosum",
+    "description": "Potato is one of the world's most important food crops and is widely grown in cool climates.",
+    "category": "Vegetable",
+    "uses": [
+      "Food",
+      "Chips",
+      "French Fries",
+      "Starch"
+    ],
+    "season": [
+      "Rabi"
+    ],
+    "soil_type": [
+      "Sandy Loam",
+      "Loamy"
+    ],
+    "ideal_ph": {
+      "min": 5.0,
+      "max": 6.5
+    },
+    "temperature_celsius": {
+      "min": 15,
+      "max": 20
+    },
+    "rainfall_mm": {
+      "min": 500,
+      "max": 700
+    },
+    "water_requirement": "Medium",
+    "recommended_fertilizers": [
+      "Compost",
+      "DAP",
+      "MOP"
+    ],
+    "npk_requirement": {
+      "nitrogen": "Medium",
+      "phosphorus": "High",
+      "potassium": "High"
+    },
+    "suitable_states": [
+      "Uttar Pradesh",
+      "Punjab",
+      "West Bengal",
+      "Bihar"
+    ],
+    "common_diseases": [
+      "Late Blight",
+      "Early Blight"
+    ],
+    "common_pests": [
+      "Potato Tuber Moth",
+      "Aphids"
+    ],
+    "common_problems": [
+      {
+        "problem": "Tuber Rot",
+        "possible_causes": [
+          "Poor drainage",
+          "Fungal infection"
+        ],
+        "farmer_message": "Ensure proper drainage and avoid waterlogging."
+      }
+    ],
+    "harvest_time_days": 100,
+    "expected_yield": "20-30 tonnes/hectare",
+    "best_irrigation": "Drip Irrigation"
+  },
+  "onion": {
+    "crop_name": "Onion",
+    "scientific_name": "Allium cepa",
+    "description": "Onion is a widely cultivated vegetable crop valued for its bulbs.",
+    "category": "Vegetable",
+    "uses": [
+      "Food",
+      "Processing"
+    ],
+    "season": [
+      "Rabi"
+    ],
+    "soil_type": [
+      "Loamy",
+      "Sandy Loam"
+    ],
+    "ideal_ph": {
+      "min": 6.0,
+      "max": 7.0
+    },
+    "temperature_celsius": {
+      "min": 13,
+      "max": 24
+    },
+    "rainfall_mm": {
+      "min": 350,
+      "max": 550
+    },
+    "water_requirement": "Medium",
+    "recommended_fertilizers": [
+      "DAP",
+      "Urea"
+    ],
+    "npk_requirement": {
+      "nitrogen": "Medium",
+      "phosphorus": "High",
+      "potassium": "High"
+    },
+    "suitable_states": [
+      "Maharashtra",
+      "Karnataka",
+      "Gujarat"
+    ],
+    "common_diseases": [
+      "Purple Blotch",
+      "Downy Mildew"
+    ],
+    "common_pests": [
+      "Thrips"
+    ],
+    "common_problems": [
+      {
+        "problem": "Bulb Rot",
+        "possible_causes": [
+          "Excess moisture"
+        ],
+        "farmer_message": "Avoid over-irrigation and improve ventilation."
+      }
+    ],
+    "harvest_time_days": 120,
+    "expected_yield": "20-25 tonnes/hectare",
+    "best_irrigation": "Drip Irrigation"
+  },
+  "chickpea": {
+    "crop_name": "Chickpea",
+    "scientific_name": "Cicer arietinum",
+    "description": "Chickpea is a protein-rich pulse crop grown mainly during the Rabi season.",
+    "category": "Pulse",
+    "uses": [
+      "Food"
+    ],
+    "season": [
+      "Rabi"
+    ],
+    "soil_type": [
+      "Loamy",
+      "Clay Loam"
+    ],
+    "ideal_ph": {
+      "min": 6.0,
+      "max": 8.0
+    },
+    "temperature_celsius": {
+      "min": 18,
+      "max": 30
+    },
+    "rainfall_mm": {
+      "min": 400,
+      "max": 700
+    },
+    "water_requirement": "Low",
+    "recommended_fertilizers": [
+      "DAP",
+      "Compost"
+    ],
+    "npk_requirement": {
+      "nitrogen": "Low",
+      "phosphorus": "High",
+      "potassium": "Medium"
+    },
+    "suitable_states": [
+      "Madhya Pradesh",
+      "Rajasthan",
+      "Uttar Pradesh"
+    ],
+    "common_diseases": [
+      "Wilt",
+      "Ascochyta Blight"
+    ],
+    "common_pests": [
+      "Pod Borer"
+    ],
+    "common_problems": [
+      {
+        "problem": "Plant Wilting",
+        "possible_causes": [
+          "Fungal infection"
+        ],
+        "farmer_message": "Use disease-free seeds and practice crop rotation."
+      }
+    ],
+    "harvest_time_days": 110,
+    "expected_yield": "2-3 tonnes/hectare",
+    "best_irrigation": "Sprinkler Irrigation"
+  },
+  "mustard": {
+    "crop_name": "Mustard",
+    "scientific_name": "Brassica juncea",
+    "description": "Mustard is an important oilseed crop cultivated during the Rabi season.",
+    "category": "Oilseed",
+    "uses": [
+      "Edible Oil",
+      "Condiments"
+    ],
+    "season": [
+      "Rabi"
+    ],
+    "soil_type": [
+      "Loamy"
+    ],
+    "ideal_ph": {
+      "min": 6.0,
+      "max": 7.5
+    },
+    "temperature_celsius": {
+      "min": 10,
+      "max": 25
+    },
+    "rainfall_mm": {
+      "min": 350,
+      "max": 600
+    },
+    "water_requirement": "Low",
+    "recommended_fertilizers": [
+      "DAP",
+      "MOP"
+    ],
+    "npk_requirement": {
+      "nitrogen": "Medium",
+      "phosphorus": "High",
+      "potassium": "Medium"
+    },
+    "suitable_states": [
+      "Rajasthan",
+      "Haryana",
+      "Punjab"
+    ],
+    "common_diseases": [
+      "White Rust",
+      "Alternaria Blight"
+    ],
+    "common_pests": [
+      "Mustard Aphid"
+    ],
+    "common_problems": [
+      {
+        "problem": "Leaf Spots",
+        "possible_causes": [
+          "Fungal infection"
+        ],
+        "farmer_message": "Monitor humidity and remove infected leaves."
+      }
+    ],
+    "harvest_time_days": 120,
+    "expected_yield": "1.5-2 tonnes/hectare",
+    "best_irrigation": "Sprinkler Irrigation"
+  },
+  "sorghum": {
+    "crop_name": "Sorghum",
+    "scientific_name": "Sorghum bicolor",
+    "description": "Sorghum is a drought-tolerant cereal crop grown for food, fodder and biofuel.",
+    "category": "Cereal",
+    "uses": [
+      "Food",
+      "Animal Feed",
+      "Biofuel"
+    ],
+    "season": [
+      "Kharif"
+    ],
+    "soil_type": [
+      "Loamy",
+      "Black Soil"
+    ],
+    "ideal_ph": {
+      "min": 5.5,
+      "max": 8.5
+    },
+    "temperature_celsius": {
+      "min": 25,
+      "max": 32
+    },
+    "rainfall_mm": {
+      "min": 400,
+      "max": 700
+    },
+    "water_requirement": "Low",
+    "recommended_fertilizers": [
+      "Urea",
+      "DAP"
+    ],
+    "npk_requirement": {
+      "nitrogen": "Medium",
+      "phosphorus": "Medium",
+      "potassium": "Medium"
+    },
+    "suitable_states": [
+      "Maharashtra",
+      "Karnataka",
+      "Telangana"
+    ],
+    "common_diseases": [
+      "Anthracnose",
+      "Grain Mold"
+    ],
+    "common_pests": [
+      "Shoot Fly",
+      "Stem Borer"
+    ],
+    "common_problems": [
+      {
+        "problem": "Poor grain filling",
+        "possible_causes": [
+          "Water stress",
+          "Nutrient deficiency"
+        ],
+        "farmer_message": "Ensure timely irrigation and balanced fertilization during grain development."
+      }
+    ],
+    "harvest_time_days": 115,
+    "expected_yield": "2-4 tonnes/hectare",
+    "best_irrigation": "Sprinkler Irrigation"
+  },
+  "pearl_millet": {
+    "crop_name": "Pearl Millet (Bajra)",
+    "scientific_name": "Pennisetum glaucum",
+    "description": "Pearl millet is a highly drought-tolerant cereal crop commonly grown in arid and semi-arid regions.",
+    "category": "Cereal",
+    "uses": [
+      "Food",
+      "Animal Feed"
+    ],
+    "season": [
+      "Kharif"
+    ],
+    "soil_type": [
+      "Sandy",
+      "Sandy Loam"
+    ],
+    "ideal_ph": {
+      "min": 5.5,
+      "max": 7.5
+    },
+    "temperature_celsius": {
+      "min": 25,
+      "max": 35
+    },
+    "rainfall_mm": {
+      "min": 300,
+      "max": 600
+    },
+    "water_requirement": "Low",
+    "recommended_fertilizers": [
+      "Urea",
+      "DAP"
+    ],
+    "npk_requirement": {
+      "nitrogen": "Medium",
+      "phosphorus": "Medium",
+      "potassium": "Medium"
+    },
+    "suitable_states": [
+      "Rajasthan",
+      "Gujarat",
+      "Haryana",
+      "Maharashtra"
+    ],
+    "common_diseases": [
+      "Downy Mildew",
+      "Ergot"
+    ],
+    "common_pests": [
+      "Shoot Fly"
+    ],
+    "common_problems": [
+      {
+        "problem": "Poor grain formation",
+        "possible_causes": [
+          "Moisture stress"
+        ],
+        "farmer_message": "Provide irrigation during flowering if possible."
+      }
+    ],
+    "harvest_time_days": 90,
+    "expected_yield": "2-3 tonnes/hectare",
+    "best_irrigation": "Rainfed / Sprinkler"
+  },
+  "finger_millet": {
+    "crop_name": "Finger Millet (Ragi)",
+    "scientific_name": "Eleusine coracana",
+    "description": "Finger millet is a nutritious cereal crop rich in calcium and highly tolerant to drought.",
+    "category": "Cereal",
+    "uses": [
+      "Food"
+    ],
+    "season": [
+      "Kharif"
+    ],
+    "soil_type": [
+      "Red Loam",
+      "Loamy"
+    ],
+    "ideal_ph": {
+      "min": 5.0,
+      "max": 7.5
+    },
+    "temperature_celsius": {
+      "min": 20,
+      "max": 30
+    },
+    "rainfall_mm": {
+      "min": 500,
+      "max": 1000
+    },
+    "water_requirement": "Low",
+    "recommended_fertilizers": [
+      "Compost",
+      "DAP"
+    ],
+    "npk_requirement": {
+      "nitrogen": "Medium",
+      "phosphorus": "Medium",
+      "potassium": "Medium"
+    },
+    "suitable_states": [
+      "Karnataka",
+      "Tamil Nadu",
+      "Odisha"
+    ],
+    "common_diseases": [
+      "Blast"
+    ],
+    "common_pests": [
+      "Stem Borer"
+    ],
+    "common_problems": [
+      {
+        "problem": "Leaf Blast",
+        "possible_causes": [
+          "Fungal infection"
+        ],
+        "farmer_message": "Use resistant varieties and monitor crop regularly."
+      }
+    ],
+    "harvest_time_days": 110,
+    "expected_yield": "2-4 tonnes/hectare",
+    "best_irrigation": "Sprinkler Irrigation"
+  },
+  "tea": {
+    "crop_name": "Tea",
+    "scientific_name": "Camellia sinensis",
+    "description": "Tea is a perennial plantation crop grown in cool and humid regions.",
+    "category": "Plantation",
+    "uses": [
+      "Beverage"
+    ],
+    "season": [
+      "Year-round"
+    ],
+    "soil_type": [
+      "Acidic Loamy"
+    ],
+    "ideal_ph": {
+      "min": 4.5,
+      "max": 5.5
+    },
+    "temperature_celsius": {
+      "min": 18,
+      "max": 30
+    },
+    "rainfall_mm": {
+      "min": 1500,
+      "max": 3000
+    },
+    "water_requirement": "High",
+    "recommended_fertilizers": [
+      "NPK",
+      "Organic Manure"
+    ],
+    "npk_requirement": {
+      "nitrogen": "High",
+      "phosphorus": "Medium",
+      "potassium": "High"
+    },
+    "suitable_states": [
+      "Assam",
+      "West Bengal",
+      "Tamil Nadu",
+      "Kerala"
+    ],
+    "common_diseases": [
+      "Blister Blight"
+    ],
+    "common_pests": [
+      "Tea Mosquito Bug"
+    ],
+    "common_problems": [
+      {
+        "problem": "Leaf damage",
+        "possible_causes": [
+          "Pest infestation"
+        ],
+        "farmer_message": "Inspect tea bushes regularly and manage pests early."
+      }
+    ],
+    "harvest_time_days": 1095,
+    "expected_yield": "2-3 tonnes/hectare",
+    "best_irrigation": "Sprinkler Irrigation"
+  },
+  "coffee": {
+    "crop_name": "Coffee",
+    "scientific_name": "Coffea arabica",
+    "description": "Coffee is a plantation crop grown under shade in tropical highland regions.",
+    "category": "Plantation",
+    "uses": [
+      "Beverage"
+    ],
+    "season": [
+      "Year-round"
+    ],
+    "soil_type": [
+      "Well-drained Loamy"
+    ],
+    "ideal_ph": {
+      "min": 5.0,
+      "max": 6.5
+    },
+    "temperature_celsius": {
+      "min": 18,
+      "max": 28
+    },
+    "rainfall_mm": {
+      "min": 1200,
+      "max": 2500
+    },
+    "water_requirement": "Medium",
+    "recommended_fertilizers": [
+      "Organic Manure",
+      "NPK"
+    ],
+    "npk_requirement": {
+      "nitrogen": "Medium",
+      "phosphorus": "Medium",
+      "potassium": "High"
+    },
+    "suitable_states": [
+      "Karnataka",
+      "Kerala",
+      "Tamil Nadu"
+    ],
+    "common_diseases": [
+      "Coffee Leaf Rust"
+    ],
+    "common_pests": [
+      "Coffee Berry Borer"
+    ],
+    "common_problems": [
+      {
+        "problem": "Leaf rust",
+        "possible_causes": [
+          "Fungal infection"
+        ],
+        "farmer_message": "Maintain shade and monitor for early symptoms."
+      }
+    ],
+    "harvest_time_days": 1095,
+    "expected_yield": "0.8-1.5 tonnes/hectare",
+    "best_irrigation": "Drip Irrigation"
+  },
+  "rubber": {
+    "crop_name": "Rubber",
+    "scientific_name": "Hevea brasiliensis",
+    "description": "Rubber is a commercial plantation crop cultivated for natural latex production.",
+    "category": "Plantation",
+    "uses": [
+      "Natural Rubber",
+      "Industrial Products"
+    ],
+    "season": [
+      "Year-round"
+    ],
+    "soil_type": [
+      "Well-drained Loamy"
+    ],
+    "ideal_ph": {
+      "min": 4.5,
+      "max": 6.5
+    },
+    "temperature_celsius": {
+      "min": 25,
+      "max": 35
+    },
+    "rainfall_mm": {
+      "min": 2000,
+      "max": 3000
+    },
+    "water_requirement": "High",
+    "recommended_fertilizers": [
+      "NPK",
+      "Organic Manure"
+    ],
+    "npk_requirement": {
+      "nitrogen": "Medium",
+      "phosphorus": "Medium",
+      "potassium": "High"
+    },
+    "suitable_states": [
+      "Kerala",
+      "Tamil Nadu",
+      "Karnataka"
+    ],
+    "common_diseases": [
+      "Abnormal Leaf Fall"
+    ],
+    "common_pests": [
+      "Scale Insects"
+    ],
+    "common_problems": [
+      {
+        "problem": "Low latex yield",
+        "possible_causes": [
+          "Poor nutrition",
+          "Tree stress"
+        ],
+        "farmer_message": "Follow recommended tapping practices and nutrient management."
+      }
+    ],
+    "harvest_time_days": 2555,
+    "expected_yield": "1500-2000 kg dry rubber/hectare/year",
+    "best_irrigation": "Rainfed / Drip Irrigation"
+  }
+}

@@ -1,0 +1,317 @@
+{
+  "urea": {
+    "fertilizer_name": "Urea",
+    "type": "Nitrogen Fertilizer",
+    "chemical_formula": "CO(NH2)2",
+    "nutrient_content": {
+      "nitrogen": "46%",
+      "phosphorus": "0%",
+      "potassium": "0%"
+    },
+    "recommended_crops": [
+      "Rice",
+      "Wheat",
+      "Maize",
+      "Sugarcane",
+      "Cotton"
+    ],
+    "application_method": [
+      "Broadcasting",
+      "Top Dressing"
+    ],
+    "best_application_stage": "Vegetative growth",
+    "benefits": [
+      "Promotes leafy growth",
+      "Improves chlorophyll production",
+      "Increases crop yield"
+    ],
+    "precautions": [
+      "Do not overapply",
+      "Apply before irrigation or rainfall",
+      "Avoid direct contact with seeds"
+    ],
+    "organic_alternative": [
+      "Compost",
+      "Vermicompost"
+    ]
+  },
+
+  "dap": {
+    "fertilizer_name": "Diammonium Phosphate (DAP)",
+    "type": "Phosphatic Fertilizer",
+    "chemical_formula": "(NH4)2HPO4",
+    "nutrient_content": {
+      "nitrogen": "18%",
+      "phosphorus": "46%",
+      "potassium": "0%"
+    },
+    "recommended_crops": [
+      "Rice",
+      "Wheat",
+      "Pulses",
+      "Groundnut",
+      "Mustard"
+    ],
+    "application_method": [
+      "Basal Application"
+    ],
+    "best_application_stage": "Before sowing",
+    "benefits": [
+      "Encourages root development",
+      "Improves flowering",
+      "Supports early plant growth"
+    ],
+    "precautions": [
+      "Do not overuse in phosphorus-rich soils",
+      "Mix well with soil before sowing"
+    ],
+    "organic_alternative": [
+      "Bone Meal",
+      "Rock Phosphate"
+    ]
+  },
+
+  "mop": {
+    "fertilizer_name": "Muriate of Potash (MOP)",
+    "type": "Potassium Fertilizer",
+    "chemical_formula": "KCl",
+    "nutrient_content": {
+      "nitrogen": "0%",
+      "phosphorus": "0%",
+      "potassium": "60%"
+    },
+    "recommended_crops": [
+      "Potato",
+      "Tomato",
+      "Banana",
+      "Sugarcane",
+      "Cotton"
+    ],
+    "application_method": [
+      "Basal Application",
+      "Broadcasting"
+    ],
+    "best_application_stage": "Before flowering",
+    "benefits": [
+      "Improves fruit quality",
+      "Enhances disease resistance",
+      "Strengthens stems"
+    ],
+    "precautions": [
+      "Avoid excessive application",
+      "Use according to soil test recommendations"
+    ],
+    "organic_alternative": [
+      "Wood Ash",
+      "Banana Peel Compost"
+    ]
+  },
+    "compost": {
+    "fertilizer_name": "Compost",
+    "type": "Organic Fertilizer",
+    "chemical_formula": "Natural Organic Matter",
+    "nutrient_content": {
+      "nitrogen": "1-3%",
+      "phosphorus": "0.5-1%",
+      "potassium": "1-2%"
+    },
+    "recommended_crops": [
+      "All Crops"
+    ],
+    "application_method": [
+      "Mix with soil before planting"
+    ],
+    "best_application_stage": "Before sowing and during land preparation",
+    "benefits": [
+      "Improves soil structure",
+      "Increases microbial activity",
+      "Enhances water retention"
+    ],
+    "precautions": [
+      "Use well-decomposed compost only"
+    ],
+    "organic_alternative": []
+  },
+
+  "vermicompost": {
+    "fertilizer_name": "Vermicompost",
+    "type": "Organic Fertilizer",
+    "chemical_formula": "Earthworm Processed Organic Matter",
+    "nutrient_content": {
+      "nitrogen": "1.5-2%",
+      "phosphorus": "1-1.5%",
+      "potassium": "1-2%"
+    },
+    "recommended_crops": [
+      "Vegetables",
+      "Fruits",
+      "Flowers",
+      "Pulses"
+    ],
+    "application_method": [
+      "Mix with soil",
+      "Root zone application"
+    ],
+    "best_application_stage": "Before planting and early growth",
+    "benefits": [
+      "Improves root development",
+      "Enhances soil fertility",
+      "Boosts beneficial microbes"
+    ],
+    "precautions": [
+      "Store in a cool, dry place",
+      "Avoid direct sunlight"
+    ],
+    "organic_alternative": []
+  },
+
+  "farmyard_manure": {
+    "fertilizer_name": "Farmyard Manure (FYM)",
+    "type": "Organic Fertilizer",
+    "chemical_formula": "Animal Waste + Plant Residues",
+    "nutrient_content": {
+      "nitrogen": "0.5%",
+      "phosphorus": "0.2%",
+      "potassium": "0.5%"
+    },
+    "recommended_crops": [
+      "All Crops"
+    ],
+    "application_method": [
+      "Basal Application"
+    ],
+    "best_application_stage": "Before sowing",
+    "benefits": [
+      "Improves soil texture",
+      "Provides slow nutrient release",
+      "Increases organic matter"
+    ],
+    "precautions": [
+      "Use only well-decomposed manure"
+    ],
+    "organic_alternative": []
+  },
+    "ssp": {
+    "fertilizer_name": "Single Super Phosphate (SSP)",
+    "type": "Phosphatic Fertilizer",
+    "chemical_formula": "Ca(H2PO4)2",
+    "nutrient_content": {
+      "nitrogen": "0%",
+      "phosphorus": "16%",
+      "potassium": "0%"
+    },
+    "recommended_crops": [
+      "Groundnut",
+      "Pulses",
+      "Mustard",
+      "Soybean"
+    ],
+    "application_method": [
+      "Basal Application"
+    ],
+    "best_application_stage": "Before sowing",
+    "benefits": [
+      "Promotes strong root growth",
+      "Improves flowering and seed formation",
+      "Supplies calcium and sulfur"
+    ],
+    "precautions": [
+      "Apply according to soil test recommendations"
+    ],
+    "organic_alternative": [
+      "Bone Meal"
+    ]
+  },
+
+  "gypsum": {
+    "fertilizer_name": "Gypsum",
+    "type": "Soil Amendment",
+    "chemical_formula": "CaSO4·2H2O",
+    "nutrient_content": {
+      "nitrogen": "0%",
+      "phosphorus": "0%",
+      "potassium": "0%"
+    },
+    "recommended_crops": [
+      "Groundnut",
+      "Cotton",
+      "Rice"
+    ],
+    "application_method": [
+      "Soil Application"
+    ],
+    "best_application_stage": "Before flowering",
+    "benefits": [
+      "Supplies calcium and sulfur",
+      "Improves soil structure",
+      "Reduces soil sodicity"
+    ],
+    "precautions": [
+      "Use only if recommended by soil analysis"
+    ],
+    "organic_alternative": []
+  },
+
+  "neem_cake": {
+    "fertilizer_name": "Neem Cake",
+    "type": "Organic Fertilizer",
+    "chemical_formula": "Natural Plant Residue",
+    "nutrient_content": {
+      "nitrogen": "5%",
+      "phosphorus": "1%",
+      "potassium": "2%"
+    },
+    "recommended_crops": [
+      "Vegetables",
+      "Rice",
+      "Sugarcane",
+      "Cotton"
+    ],
+    "application_method": [
+      "Mix with soil"
+    ],
+    "best_application_stage": "Before sowing",
+    "benefits": [
+      "Adds nutrients",
+      "Improves soil health",
+      "Helps suppress some soil pests"
+    ],
+    "precautions": [
+      "Store in a dry place"
+    ],
+    "organic_alternative": []
+  },
+
+  "npk_complex": {
+    "fertilizer_name": "NPK Complex Fertilizer",
+    "type": "Balanced Fertilizer",
+    "chemical_formula": "Various NPK Grades",
+    "nutrient_content": {
+      "nitrogen": "17%",
+      "phosphorus": "17%",
+      "potassium": "17%"
+    },
+    "recommended_crops": [
+      "Most Field Crops",
+      "Vegetables",
+      "Fruits"
+    ],
+    "application_method": [
+      "Basal Application",
+      "Top Dressing"
+    ],
+    "best_application_stage": "Throughout crop growth as recommended",
+    "benefits": [
+      "Provides balanced nutrition",
+      "Supports overall plant growth",
+      "Improves yield"
+    ],
+    "precautions": [
+      "Select the correct NPK grade for the crop"
+    ],
+    "organic_alternative": [
+      "Compost",
+      "Farmyard Manure"
+    ]
+  }
+}
