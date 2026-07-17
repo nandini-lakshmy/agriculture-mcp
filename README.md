@@ -54,3 +54,12 @@ This software architecture is designed to eventually replace the simulated data 
 | Weather Data | OpenWeather API |
 | Data Source | Custom Crop & Soil Knowledge Base |
 | Version Control | Git & GitHub |
+
+## 👥 Team
+
+| Member | Responsibility |
+|---------|----------------|
+| Haridev | Frontend Dashboard Development |
+| Devadevan | MCP Server & Backend Development |
+| Nandini | AI Resources & Prompt Engineering |
+| Aditya | Documentation, Testing & Presentation |
