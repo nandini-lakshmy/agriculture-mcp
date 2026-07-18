@@ -12,6 +12,8 @@ Our project is submitted under the Open Innovation track because agricultural re
 * **MCP Weather Tool:** Integrates with the OpenWeather API to pull hyper-local forecasts.
 * **MCP Soil Tool:** Analyzes soil conditions against a custom crop database.
 * **AI Knowledge Layer:** Uses specialized Prompts (Crop Advisor, Fertilizer Advisor, Risk Analysis) and Resources (Crop Database, Soil Info, Irrigation Guidelines) to generate final recommendations.
+* * **Automated Alerting System:** Real-time hazard warnings triggered by sudden shifts in sensor data or extreme weather forecasts.
+* **Farm Mapping & Reporting:** Generates comprehensive spatial layouts and historical operational reports for farm management.
 
 ## System Architecture & Data Flow
 Our system operates on a seamless flow from the UI down to the MCP primitives:
@@ -40,6 +42,18 @@ This software architecture is designed to eventually replace the simulated data 
 <p align="center">
   <img src="workflow.png" width="300">
 </p>
+
+## ⚙️ Backend Module Architecture
+Our MCP Server (`agrimcp-server v1.0.0`) is built using a highly scalable, feature-driven modular architecture leveraging the `@nitrostack/core` framework. The root application bootstraps the following independent modules:
+
+* **`WeatherModule`**: Interfaces with external meteorological APIs.
+* **`SensorModule`**: Manages the ingestion and validation of simulated hardware telemetry.
+* **`AgricultureModule` & `ResourcesModule`**: Serve as the static knowledge base for crop and soil data.
+* **`RecommendationModule`**: The core AI logic engine that routes contextual prompts to the LLM.
+* **`AlertModule` & `ReportModule`**: Generates real-time hazard warnings and historical farm reports.
+* **`FarmMapModule`**: Handles spatial data regarding crop placement and soil variations.
+
+The system also includes a built-in `SystemHealthCheck` provider to ensure continuous uptime during critical farming operations.
 ## 📋 Documentation
 
 - [Testing Checklist](docs/testing-checklist.md)
