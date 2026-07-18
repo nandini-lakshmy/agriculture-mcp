@@ -64,7 +64,7 @@ export class RecommendationTools {
     );
 
     const recommendation =
-      this.recommendationService.generateRecommendation(
+      await this.recommendationService.generateRecommendation(
         input.crop
       );
 

@@ -1,59 +1,37 @@
-import { ResourceDecorator as Resource, Widget, ExecutionContext } from '@nitrostack/core';
+import { ResourceDecorator as Resource, ExecutionContext } from "@nitrostack/core";
 
 export class WeatherResources {
   @Resource({
-    uri: 'weather://operations',
-    name: 'Weather Operations',
-    description: 'List of available weather operations',
-    mimeType: 'application/json',
-    examples: {
-      response: {
-        operations: [
-          { name: 'add', symbol: '+', description: 'Addition' },
-          { name: 'subtract', symbol: '-', description: 'Subtraction' },
-          { name: 'multiply', symbol: '×', description: 'Multiplication' },
-          { name: 'divide', symbol: '÷', description: 'Division' }
-        ]
-      }
-    }
+    uri: "weather://current",
+    name: "Current Weather",
+    description: "Provides the latest weather information for agricultural analysis.",
+    mimeType: "application/json"
   })
-  async getOperations(uri: string, ctx: ExecutionContext) {
-    ctx.logger.info('Fetching calculator operations');
-
-    const operations = [
-      {
-        name: 'add',
-        symbol: '+',
-        description: 'Addition',
-        example: '5 + 3 = 8'
-      },
-      {
-        name: 'subtract',
-        symbol: '-',
-        description: 'Subtraction',
-        example: '10 - 4 = 6'
-      },
-      {
-        name: 'multiply',
-        symbol: '×',
-        description: 'Multiplication',
-        example: '6 × 7 = 42'
-      },
-      {
-        name: 'divide',
-        symbol: '÷',
-        description: 'Division',
-        example: '20 ÷ 5 = 4'
-      }
-    ];
+  async getCurrentWeather(uri: string, ctx: ExecutionContext) {
+    ctx.logger.info("Providing weather resource");
 
     return {
-      contents: [{
-        uri,
-        mimeType: 'application/json',
-        text: JSON.stringify({ operations }, null, 2)
-      }]
+      contents: [
+        {
+          uri,
+          mimeType: "application/json",
+          text: JSON.stringify(
+            {
+              description:
+                "Live weather data is retrieved through the get_weather tool.",
+              fields: [
+                "temperature",
+                "humidity",
+                "rainfall",
+                "windSpeed",
+                "condition"
+              ]
+            },
+            null,
+            2
+          )
+        }
+      ]
     };
   }
 }
-

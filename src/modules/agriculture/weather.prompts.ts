@@ -2,72 +2,55 @@ import { PromptDecorator as Prompt, ExecutionContext } from '@nitrostack/core';
 
 export class WeatherPrompts {
   @Prompt({
-    name: 'calculator_help',
-    description: 'Get help with calculator operations',
+    name: 'agriculture_assistant',
+    description: 'AI assistant for crop analysis and farming recommendations',
     arguments: [
       {
-        name: 'operation',
-        description: 'The operation to get help with (optional)',
-        required: false
+        name: 'crop',
+        description: 'Crop name',
+        required: true
+      },
+      {
+        name: 'location',
+        description: 'Farm location',
+        required: true
       }
     ]
   })
-  async getHelp(args: any, ctx: ExecutionContext) {
-    ctx.logger.info('Generating calculator help prompt');
+  async getAdvice(args: any, ctx: ExecutionContext) {
+    ctx.logger.info('Generating agriculture assistant prompt');
 
-    const operation = args.operation;
-
-    if (operation) {
-      // Help for specific operation
-      const helpText = this.getOperationHelp(operation);
-      return [
-        {
-          role: 'user' as const,
-          content: `How do I use the ${operation} operation in the calculator?`
-        },
-        {
-          role: 'assistant' as const,
-          content: helpText
-        }
-      ];
-    }
-
-    // General help
     return [
       {
-        role: 'user' as const,
-        content: 'How do I use the calculator?'
+        role: 'system' as const,
+        content: `You are AgriMCP, an expert agricultural AI assistant.
+
+Your job is to analyze:
+
+• Crop information
+• Weather conditions
+• Soil moisture
+• Temperature
+• Humidity
+• Soil nutrients (NPK)
+• pH level
+
+Always provide:
+
+1. Crop suitability
+2. Irrigation recommendation
+3. Fertilizer recommendation
+4. Disease or pest warning (if any)
+5. Risk level
+6. Farmer-friendly explanation
+7. Clear next actions
+
+Keep the response practical and easy for farmers to understand.`
       },
       {
-        role: 'assistant' as const,
-        content: `The calculator supports four basic operations:
-
-1. **Addition** - Add two numbers together
-   Example: calculate(operation="add", a=5, b=3) = 8
-
-2. **Subtraction** - Subtract one number from another
-   Example: calculate(operation="subtract", a=10, b=4) = 6
-
-3. **Multiplication** - Multiply two numbers
-   Example: calculate(operation="multiply", a=6, b=7) = 42
-
-4. **Division** - Divide one number by another
-   Example: calculate(operation="divide", a=20, b=5) = 4
-
-Just call the 'calculate' tool with the operation and two numbers!`
+        role: 'user' as const,
+        content: `Analyze the farm for crop "${args.crop}" at location "${args.location}" and provide complete agricultural recommendations.`
       }
     ];
   }
-
-  private getOperationHelp(operation: string): string {
-    const helps: Record<string, string> = {
-      add: 'Use addition to sum two numbers. Call calculate(operation="add", a=5, b=3) to get 8.',
-      subtract: 'Use subtraction to find the difference. Call calculate(operation="subtract", a=10, b=4) to get 6.',
-      multiply: 'Use multiplication to find the product. Call calculate(operation="multiply", a=6, b=7) to get 42.',
-      divide: 'Use division to find the quotient. Call calculate(operation="divide", a=20, b=5) to get 4. Note: Cannot divide by zero!'
-    };
-
-    return helps[operation] || 'Unknown operation. Available operations: add, subtract, multiply, divide.';
-  }
 }
-

@@ -5,6 +5,9 @@ import { WeatherModule } from "./modules/weather/weather.module.js";
 import { ResourcesModule } from "./modules/resources/resources.module.js";
 import { RecommendationModule } from "./modules/recommendation/recommendation.module.js";
 import { SensorModule } from "./modules/sensors/sensor.module.js";
+import { AlertModule } from "./modules/alerts/alert.module.js";
+import { ReportModule } from "./modules/reports/report.module.js";
+import { FarmMapModule } from "./modules/farmmap/farmmap.module.js";
 
 /**
  * Root Application Module
@@ -31,7 +34,10 @@ import { SensorModule } from "./modules/sensors/sensor.module.js";
     AgricultureModule,
     ResourcesModule,
     RecommendationModule,
-    SensorModule
+    SensorModule,
+    AlertModule,
+    ReportModule,
+    FarmMapModule
   ],
   providers: [
     // Health Checks
