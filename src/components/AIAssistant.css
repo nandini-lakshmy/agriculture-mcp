@@ -1,0 +1,88 @@
+.assistantCard{
+background:white;
+border-radius:20px;
+padding:20px;
+box-shadow:0 5px 15px rgba(0,0,0,.08);
+height:500px;
+display:flex;
+flex-direction:column;
+}
+
+.assistantHeader{
+display:flex;
+align-items:center;
+gap:10px;
+font-size:22px;
+font-weight:600;
+color:#2f855a;
+margin-bottom:20px;
+}
+
+.chatWindow{
+    height:320px;
+    overflow-y:auto;
+    display:flex;
+    flex-direction:column;
+    gap:12px;
+    padding:10px;
+    scroll-behavior:smooth;
+}
+
+.chatInput{
+display:flex;
+margin-top:15px;
+}
+
+.chatInput input{
+flex:1;
+padding:12px;
+border:1px solid #ccc;
+border-radius:10px;
+outline:none;
+}
+
+.chatInput button{
+margin-left:10px;
+padding:12px 18px;
+background:#2f855a;
+border:none;
+color:white;
+border-radius:10px;
+cursor:pointer;
+}
+.suggestions{
+    display:flex;
+    flex-wrap:wrap;
+    gap:6px;
+    margin:10px 0;
+}
+
+.suggestions button{
+    flex:1;
+    min-width:90px;
+    padding:6px 8px;
+    font-size:11px;
+    border:none;
+    border-radius:20px;
+    cursor:pointer;
+}
+
+.suggestions button:hover{
+background:#2e7d32;
+color:white;
+}.suggestions{
+    display:flex;
+    flex-wrap:wrap;
+    gap:6px;
+    margin:10px 0;
+}
+
+.suggestions button{
+    flex:1;
+    min-width:90px;
+    padding:6px 8px;
+    font-size:11px;
+    border:none;
+    border-radius:20px;
+    cursor:pointer;
+}

@@ -111,3 +111,74 @@
   }
 
 }
+/* ============================================
+   AI Assistant Section
+============================================ */
+
+.assistantCardWrapper {
+  width: 100%;
+  margin-top: 20px;
+}
+
+/* ============================================
+   Responsive Dashboard
+============================================ */
+
+@media (max-width: 1200px) {
+
+  .mainGrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .leftColumn,
+  .rightColumn {
+    width: 100%;
+  }
+
+  .bottomCards {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .weatherCardWrapper,
+  .recommendationCardWrapper,
+  .assistantCardWrapper {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .dashboard {
+    padding: 15px;
+  }
+
+  .kpiSection {
+    width: 100%;
+  }
+
+  .mainGrid {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .bottomCards {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .farmCard,
+  .weatherCardWrapper,
+  .recommendationCardWrapper,
+  .alertsCardWrapper,
+  .reportsCardWrapper,
+  .sensorCardWrapper,
+  .assistantCardWrapper {
+    width: 100%;
+  }
+}

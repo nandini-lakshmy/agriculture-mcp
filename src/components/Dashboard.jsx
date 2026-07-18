@@ -7,6 +7,7 @@ import Recommendation from "./Recommendation";
 import Alerts from "./Alerts";
 import Reports from "./Reports";
 import SensorStatus from "./SensorStatus";
+import AIAssistant from "./AIAssistant";
 
 export default function Dashboard() {
   return (
@@ -17,16 +18,18 @@ export default function Dashboard() {
         <KPICards />
       </section>
 
-      {/* Main Content */}
+      {/* Main Dashboard */}
       <section className="mainGrid">
 
-        {/* Left Side */}
+        {/* Left Column */}
         <div className="leftColumn">
 
+          {/* Field Health */}
           <div className="farmCard">
             <FieldHealth />
           </div>
 
+          {/* Bottom Cards */}
           <div className="bottomCards">
 
             <div className="alertsCardWrapper">
@@ -45,16 +48,22 @@ export default function Dashboard() {
 
         </div>
 
-        {/* Right Side */}
-
+        {/* Right Column */}
         <div className="rightColumn">
 
+          {/* Weather */}
           <div className="weatherCardWrapper">
             <Weather />
           </div>
 
+          {/* Recommendation */}
           <div className="recommendationCardWrapper">
             <Recommendation />
+          </div>
+
+          {/* AI Assistant */}
+          <div className="assistantCardWrapper">
+            <AIAssistant />
           </div>
 
         </div>
