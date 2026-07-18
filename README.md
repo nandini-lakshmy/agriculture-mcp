@@ -12,8 +12,14 @@ Our project is submitted under the Open Innovation track because agricultural re
 * **MCP Weather Tool:** Integrates with the OpenWeather API to pull hyper-local forecasts.
 * **MCP Soil Tool:** Analyzes soil conditions against a custom crop database.
 * **AI Knowledge Layer:** Uses specialized Prompts (Crop Advisor, Fertilizer Advisor, Risk Analysis) and Resources (Crop Database, Soil Info, Irrigation Guidelines) to generate final recommendations.
-* * **Automated Alerting System:** Real-time hazard warnings triggered by sudden shifts in sensor data or extreme weather forecasts.
+* * **Automated Alerting System:** Real-time hazard warnings triggered by sudden shifts in sensor data or extreme weather forecasts* .
 * **Farm Mapping & Reporting:** Generates comprehensive spatial layouts and historical operational reports for farm management.
+### 📚 Resources
+Our MCP server exposes local JSON data stores to the AI, acting as a highly specialized agricultural knowledge base:
+* **`crop_database.json`**: A structured reference providing the AI with optimal environmental conditions (like required pH and moisture levels) for specific crop varieties.
+* **`fertilizer_guide.json`**: Reference data detailing NPK (Nitrogen, Phosphorus, Potassium) nutrient requirements and exact chemical application rates.
+* **`soil_health.json`**: Baseline metrics and thresholds used by the AI to evaluate the live simulated soil telemetry.
+* **`recommendation_rules.json`**: The logical rule engine the AI uses to cross-reference weather risks from the Tools with soil deficits to generate actionable alerts for the farmer.
 
 ## System Architecture & Data Flow
 Our system operates on a seamless flow from the UI down to the MCP primitives:
