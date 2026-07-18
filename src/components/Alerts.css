@@ -1,0 +1,167 @@
+.alertsCard {
+  background: #ffffff;
+  border-radius: 18px;
+  padding: 22px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.06);
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  height: 100%;
+}
+
+/* ================= Header ================= */
+
+.alertsHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.alertsHeader h3 {
+  margin: 0;
+  font-size: 22px;
+  font-weight: 700;
+  color: #000000;
+}
+
+.alertsHeader p {
+  margin-top: 4px;
+  color: #6b7280;
+  font-size: 14px;
+}
+
+.viewAllBtn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: transparent;
+  border: none;
+  color: #16a34a;
+  font-weight: 600;
+  cursor: pointer;
+  transition: .25s;
+}
+
+.viewAllBtn:hover {
+  gap: 12px;
+}
+
+/* ================= Alert List ================= */
+
+.alertsList {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.alertItem {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 14px;
+  border-radius: 14px;
+  background: #f8fafc;
+  transition: .25s;
+}
+
+.alertItem:hover {
+  background: #f1f5f9;
+  transform: translateY(-2px);
+}
+
+/* ================= Icons ================= */
+
+.alertIcon {
+  width: 46px;
+  height: 46px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.alertIcon svg {
+  color: white;
+  font-size: 20px;
+}
+
+/* Orange */
+
+.alertIcon.warning {
+  background: linear-gradient(135deg,#F59E0B,#D97706);
+}
+
+/* Blue */
+
+.alertIcon.info {
+  background: linear-gradient(135deg,#3B82F6,#2563EB);
+}
+
+/* Red */
+
+.alertIcon.danger {
+  background: linear-gradient(135deg,#EF4444,#DC2626);
+}
+
+/* Green */
+
+.alertIcon.success {
+  background: linear-gradient(135deg,#22C55E,#16A34A);
+}
+
+/* Temperature */
+
+.alertIcon.temperature {
+  background: linear-gradient(135deg,#F97316,#EA580C);
+}
+
+/* ================= Text ================= */
+
+.alertContent {
+  flex: 1;
+}
+
+.alertContent h4 {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 700;
+  color: #111827;
+}
+
+.alertContent p {
+  margin-top: 5px;
+  font-size: 13px;
+  color: #6b7280;
+  line-height: 1.5;
+}
+
+/* ================= Time ================= */
+
+.alertTime {
+  font-size: 12px;
+  color: #9ca3af;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+/* ================= Responsive ================= */
+
+@media (max-width:768px){
+
+.alertsHeader{
+flex-direction:column;
+align-items:flex-start;
+gap:12px;
+}
+
+.alertItem{
+flex-wrap:wrap;
+}
+
+.alertTime{
+width:100%;
+margin-left:60px;
+}
+
+}

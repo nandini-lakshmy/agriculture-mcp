@@ -1,0 +1,158 @@
+/* ========================= */
+/* Global Reset */
+/* ========================= */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+:root{
+
+    --primary:#2E7D32;
+    --secondary:#66BB6A;
+    --background:#EEF5EF;
+    --card:#FFFFFF;
+    --text:#183A1D;
+
+}
+
+html,
+body,
+#root{
+
+    width:100%;
+    height:100%;
+
+}
+
+body{
+
+    font-family:"Inter","Segoe UI",sans-serif;
+
+    background:var(--background);
+
+    overflow:hidden;
+
+}
+
+/* ========================= */
+/* Main Layout */
+/* ========================= */
+
+.app{
+
+    display:flex;
+
+    width:100%;
+
+    height:100vh;
+
+    background:#EEF5EF;
+
+}
+
+/* ========================= */
+/* Dashboard Area */
+/* ========================= */
+
+.main{
+
+    margin-left:205px;
+
+    width:calc(100% - 205px);
+
+    height:100vh;
+
+    overflow-y:auto;
+
+    overflow-x:hidden;
+
+    padding:24px 28px;
+
+    background:#EEF5EF;
+
+}
+
+/* ========================= */
+/* Scrollbar */
+/* ========================= */
+
+.main::-webkit-scrollbar{
+
+    width:8px;
+
+}
+
+.main::-webkit-scrollbar-track{
+
+    background:transparent;
+
+}
+
+.main::-webkit-scrollbar-thumb{
+
+    background:#2E7D32;
+
+    border-radius:20px;
+
+}
+
+/* Firefox */
+
+.main{
+
+    scrollbar-width:thin;
+
+    scrollbar-color:#2E7D32 transparent;
+
+}
+
+/* ========================= */
+/* Common Card Style */
+/* ========================= */
+
+.card{
+
+    background:white;
+
+    border-radius:22px;
+
+    box-shadow:0 12px 30px rgba(0,0,0,.08);
+
+}
+
+/* ========================= */
+/* Buttons */
+/* ========================= */
+
+button{
+
+    font-family:inherit;
+
+}
+
+/* ========================= */
+/* Images */
+/* ========================= */
+
+img{
+
+    max-width:100%;
+
+    display:block;
+
+}
+
+/* ========================= */
+/* Links */
+/* ========================= */
+
+a{
+
+    color:inherit;
+
+    text-decoration:none;
+
+}

@@ -1,0 +1,167 @@
+.sidebar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 185px;
+  height: 100vh;
+  background: #174d2d;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  overflow: hidden;
+}
+
+/* ---------------- Logo ---------------- */
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.logoIcon {
+  width: 38px;
+  height: 38px;
+  border-radius: 10px;
+  background: #2f8d46;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.logoText h2 {
+  font-size: 14px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.logoText p {
+  margin-top: 3px;
+  font-size: 9px;
+  opacity: .75;
+}
+
+/* ---------------- Menu ---------------- */
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.menuItem {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  height: 38px;
+  padding: 0 12px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: .25s;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.menuItem svg {
+  width: 16px;
+  min-width: 16px;
+  font-size: 15px;
+}
+
+.menuItem:hover {
+  background: rgba(255,255,255,.06);
+}
+
+.menuItem.active {
+  background: #2e7d32;
+}
+
+/* ---------------- AI Card ---------------- */
+
+.assistantCard {
+  margin-top: auto;
+  background: rgba(255,255,255,.06);
+  border-radius: 12px;
+  padding: 12px;
+  text-align: center;
+}
+
+.robotCircle {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background: #2e7d32;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 8px;
+  font-size: 16px;
+}
+
+.assistantCard h3 {
+  margin: 0;
+  font-size: 14px;
+}
+
+.assistantCard p {
+  margin: 8px 0 10px;
+  font-size: 10px;
+  line-height: 1.4;
+  opacity: .8;
+}
+
+.assistantCard button {
+  width: 92px;
+  height: 30px;
+  border: none;
+  border-radius: 8px;
+  background: #78c850;
+  color: white;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/* ---------------- Profile ---------------- */
+
+.profile {
+  margin-top: 12px;
+  padding-top: 12px;
+  border-top: 1px solid rgba(255,255,255,.08);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.profile img {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+}
+
+.profileInfo {
+  flex: 1;
+}
+
+.profileInfo h4 {
+  margin: 0;
+  font-size: 13px;
+  font-weight: 600;
+  color: #000000;
+}
+
+.profileInfo span {
+  display: block;
+  margin-top: 2px;
+  font-size: 9px;
+  color: #6b7280;
+  opacity: 1;
+}
+
+.arrow {
+  font-size: 10px;
+  opacity: .7;
+}

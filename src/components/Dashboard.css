@@ -1,0 +1,113 @@
+.dashboard {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+/* ================= KPI ================= */
+
+.kpiSection {
+  width: 100%;
+}
+
+/* ================= Main Grid ================= */
+
+.mainGrid {
+  display: grid;
+  grid-template-columns: 2.4fr 1fr;
+  gap: 22px;
+  align-items: start;
+}
+
+/* ================= Left ================= */
+
+.leftColumn {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+/* ================= Farm ================= */
+
+.farmCard {
+  width: 100%;
+}
+
+/* ================= Bottom ================= */
+
+.bottomCards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 22px;
+}
+
+.alertsCardWrapper,
+.reportsCardWrapper,
+.sensorCardWrapper {
+  width: 100%;
+}
+
+/* ================= Right ================= */
+
+.rightColumn {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.weatherCardWrapper,
+.recommendationCardWrapper {
+  width: 100%;
+}
+
+/* ================= Cards ================= */
+
+.farmCard,
+.weatherCardWrapper,
+.recommendationCardWrapper,
+.alertsCardWrapper,
+.reportsCardWrapper,
+.sensorCardWrapper {
+  transition: all .3s ease;
+}
+
+.farmCard:hover,
+.weatherCardWrapper:hover,
+.recommendationCardWrapper:hover,
+.alertsCardWrapper:hover,
+.reportsCardWrapper:hover,
+.sensorCardWrapper:hover {
+  transform: translateY(-2px);
+}
+
+/* ================= Responsive ================= */
+
+@media (max-width: 1400px) {
+
+  .mainGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .rightColumn {
+    flex-direction: row;
+  }
+
+  .weatherCardWrapper,
+  .recommendationCardWrapper {
+    flex: 1;
+  }
+
+}
+
+@media (max-width: 1100px) {
+
+  .bottomCards {
+    grid-template-columns: 1fr;
+  }
+
+  .rightColumn {
+    flex-direction: column;
+  }
+
+}

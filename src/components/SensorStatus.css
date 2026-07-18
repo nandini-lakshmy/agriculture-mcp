@@ -1,0 +1,189 @@
+.sensorCard {
+  background: #ffffff;
+  border-radius: 18px;
+  padding: 22px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.06);
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  height: 100%;
+}
+
+/* ================= Header ================= */
+
+.sensorHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sensorHeader h3 {
+  margin: 0;
+  font-size: 22px;
+  font-weight: 700;
+  color: #111827;
+}
+
+.sensorHeader p {
+  margin-top: 4px;
+  font-size: 14px;
+  color: #6b7280;
+}
+
+.sensorLive {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: #dcfce7;
+  color: #16a34a;
+  padding: 8px 14px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.sensorLive svg {
+  font-size: 14px;
+}
+
+/* ================= List ================= */
+
+.sensorList {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.sensorItem {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  background: #f8fafc;
+  border-radius: 14px;
+  padding: 14px;
+  transition: all 0.25s ease;
+}
+
+.sensorItem:hover {
+  background: #f1f5f9;
+  transform: translateY(-2px);
+}
+
+/* ================= Icon ================= */
+
+.sensorIcon {
+  width: 46px;
+  height: 46px;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #22c55e, #16a34a);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.sensorIcon svg {
+  color: white;
+  font-size: 20px;
+}
+
+/* ================= Info ================= */
+
+.sensorInfo {
+  flex: 1;
+}
+
+.sensorInfo h4 {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 700;
+  color: #111827;
+}
+
+.sensorInfo span {
+  display: block;
+  margin-top: 4px;
+  color: #6b7280;
+  font-size: 13px;
+}
+
+/* ================= Status ================= */
+
+.sensorStatus {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: #16a34a;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.sensorStatus svg {
+  font-size: 14px;
+}
+
+/* ================= Footer ================= */
+
+.sensorFooter {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 14px;
+  margin-top: auto;
+}
+
+.footerBox {
+  background: #f8fafc;
+  border-radius: 14px;
+  padding: 16px;
+  text-align: center;
+  transition: all 0.25s ease;
+}
+
+.footerBox:hover {
+  background: #f1f5f9;
+}
+
+.footerBox strong {
+  display: block;
+  font-size: 22px;
+  color: #22c55e;
+  margin-bottom: 6px;
+}
+
+.footerBox span {
+  font-size: 13px;
+  color: #6b7280;
+  font-weight: 600;
+}
+
+/* ================= Card Hover ================= */
+
+.sensorCard:hover {
+  transform: translateY(-2px);
+  transition: all 0.3s ease;
+}
+
+/* ================= Responsive ================= */
+
+@media (max-width: 768px) {
+
+  .sensorHeader {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+
+  .sensorItem {
+    flex-wrap: wrap;
+  }
+
+  .sensorStatus {
+    width: 100%;
+    margin-left: 60px;
+  }
+
+  .sensorFooter {
+    grid-template-columns: 1fr;
+  }
+
+}

@@ -1,0 +1,208 @@
+.header {
+  width: 100%;
+  background: #ffffff;
+  border-radius: 18px;
+  padding: 20px 28px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.06);
+  margin-bottom: 24px;
+}
+
+/* ================= Left ================= */
+
+.headerLeft h1 {
+  margin: 0;
+  font-size: 32px;
+  font-weight: 700;
+  color: #111827;
+}
+
+.headerLeft p {
+  margin-top: 6px;
+  font-size: 14px;
+  color: #6b7280;
+}
+
+/* ================= Right ================= */
+
+.headerRight {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+/* ================= Search ================= */
+
+.searchBox {
+  width: 280px;
+  height: 48px;
+  background: #f8fafc;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+  gap: 12px;
+  transition: all 0.25s ease;
+}
+
+.searchBox:hover {
+  background: #f1f5f9;
+}
+
+.searchBox svg {
+  color: #6b7280;
+  font-size: 15px;
+}
+
+.searchBox input {
+  border: none;
+  outline: none;
+  background: transparent;
+  width: 100%;
+  font-size: 14px;
+  color: #111827;
+}
+
+.searchBox input::placeholder {
+  color: #9ca3af;
+}
+
+/* ================= Weather ================= */
+
+.weatherWidget {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: #f8fafc;
+  padding: 10px 16px;
+  border-radius: 12px;
+}
+
+.weatherWidget svg {
+  font-size: 24px;
+  color: #f59e0b;
+}
+
+.weatherWidget strong {
+  display: block;
+  font-size: 16px;
+  color: #111827;
+}
+
+.weatherWidget span {
+  font-size: 12px;
+  color: #6b7280;
+}
+
+/* ================= Notification ================= */
+
+.notificationBtn {
+  position: relative;
+  width: 48px;
+  height: 48px;
+  border: none;
+  background: #f8fafc;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+.notificationBtn:hover {
+  background: #f1f5f9;
+}
+
+.notificationBtn svg {
+  font-size: 18px;
+  color: #374151;
+}
+
+.notificationDot {
+  position: absolute;
+  top: 12px;
+  right: 13px;
+  width: 10px;
+  height: 10px;
+  background: #ef4444;
+  border-radius: 50%;
+  border: 2px solid white;
+}
+
+/* ================= Profile ================= */
+
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: #f8fafc;
+  padding: 8px 14px;
+  border-radius: 14px;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+.profile:hover {
+  background: #f1f5f9;
+}
+
+.profile img {
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.profile strong {
+  display: block;
+  color: #111827;
+  font-size: 14px;
+}
+
+.profile span {
+  font-size: 12px;
+  color: #6b7280;
+}
+
+.profile svg:last-child {
+  color: #6b7280;
+  font-size: 12px;
+}
+
+/* ================= Responsive ================= */
+
+@media (max-width: 1200px) {
+
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+
+  .headerRight {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .searchBox {
+    flex: 1;
+    min-width: 220px;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .profile {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .weatherWidget {
+    flex: 1;
+  }
+
+  .notificationBtn {
+    width: 44px;
+    height: 44px;
+  }
+}

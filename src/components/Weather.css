@@ -1,0 +1,150 @@
+.weatherCard {
+  background: #ffffff;
+  border-radius: 18px;
+  padding: 22px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.06);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  min-height: 340px;
+}
+
+/* ================= Header ================= */
+
+.weatherHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.weatherHeader h3 {
+  font-size: 22px;
+  font-weight: 700;
+  color: #111827;
+  margin: 0;
+}
+
+.weatherHeader p {
+  margin-top: 4px;
+  color: #6b7280;
+  font-size: 14px;
+}
+
+.liveBadge {
+  background: #dcfce7;
+  color: #16a34a;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 6px 12px;
+  border-radius: 20px;
+}
+
+/* ================= Main ================= */
+
+.weatherMain {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 22px;
+  padding: 12px 0;
+}
+
+.weatherIcon {
+  width: 80px;
+  height: 80px;
+  background: linear-gradient(135deg, #fde68a, #fbbf24);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.weatherIcon svg {
+  font-size: 38px;
+  color: white;
+}
+
+.temperatureBlock {
+  display: flex;
+  flex-direction: column;
+}
+
+.temperatureBlock h1 {
+  margin: 0;
+  font-size: 46px;
+  font-weight: 700;
+  color: #111827;
+}
+
+.temperatureBlock span {
+  margin-top: 5px;
+  font-size: 16px;
+  color: #6b7280;
+}
+
+/* ================= Grid ================= */
+
+.weatherGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 14px;
+}
+
+.weatherItem {
+  background: #f8fafc;
+  border-radius: 14px;
+  padding: 14px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.weatherItem svg {
+  font-size: 22px;
+  color: #22c55e;
+}
+
+.weatherItem h4 {
+  margin: 0;
+  font-size: 14px;
+  color: #6b7280;
+  font-weight: 600;
+}
+
+.weatherItem span {
+  display: block;
+  margin-top: 3px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #111827;
+}
+
+/* ================= Hover ================= */
+
+.weatherItem:hover {
+  transform: translateY(-2px);
+  transition: 0.25s ease;
+}
+
+.weatherCard:hover {
+  transform: translateY(-2px);
+  transition: 0.3s ease;
+}
+
+/* ================= Responsive ================= */
+
+@media (max-width: 768px) {
+
+  .weatherGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .weatherMain {
+    flex-direction: column;
+  }
+
+  .temperatureBlock {
+    text-align: center;
+  }
+
+}
