@@ -63,3 +63,23 @@ This software architecture is designed to eventually replace the simulated data 
 | Devadevan | MCP Server & Backend Development |
 | Nandini | AI Resources & Prompt Engineering |
 | Aditya | Documentation, Testing & Presentation |
+
+## 🚀 Future Scope
+
+Our long-term vision is to transform the Smart Agriculture MCP Agent into a nationwide AI-powered agricultural advisory platform. Future enhancements include:
+
+- 🇮🇳 **Integration with the Government of India Agricultural Ecosystem:** Collaborate with the Ministry of Agriculture & Farmers Welfare and related government platforms to provide farmers with authenticated recommendations, scheme information, and region-specific agricultural advisories.
+
+- 🌾 **Integration with Real IoT Devices:** Replace simulated sensor data with live data from IoT-based soil moisture, pH, NPK, and environmental sensors deployed in farms.
+
+- 📱 **Mobile Application for Farmers:** Develop Android and iOS applications with multilingual support for easier accessibility in rural areas.
+
+- 🛰️ **Satellite & Remote Sensing Integration:** Utilize satellite imagery and remote sensing data to monitor crop health, detect drought stress, and estimate yields.
+
+- 🤖 **Advanced AI Advisory:** Expand the AI to provide pest and disease detection, crop rotation planning, seasonal forecasting, and personalized farming strategies.
+
+- 🌐 **Offline & Low-Connectivity Support:** Enable the platform to function in rural areas with limited internet access through offline caching and periodic synchronization.
+
+- 📊 **Farmer Analytics Dashboard:** Provide historical crop performance, weather trends, irrigation history, and productivity insights to support long-term decision-making.
+
+- 🏛️ **Digital Agriculture Ecosystem:** Build a unified platform connecting farmers, agricultural experts, government agencies, research institutions, and agri-tech service providers for data-driven sustainable farming.
